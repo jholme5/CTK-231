@@ -1,0 +1,36 @@
+/* Anything between these two tags will be ignored by the browser */
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: black;
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+
+h4 {
+    background-color: green;
+    color: yellow;
+}
+p {
+    color: black;
+}
+#purple {
+    background-color: purple;
+}
+#red {
+    background-color: red;
+    color: yellow;
+}
+
+a:hover {
+    color: yellow;
+}
