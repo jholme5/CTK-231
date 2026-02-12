@@ -1,0 +1,36 @@
+/* Anything between these two tags will be ignored by the browser */
+
+/* 1. Make all text Helvetica or Arial */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url("TheMain.webp"); 
+    background-repeat: no-repeat;
+}
+
+/* 2. Center at least one paragraph */
+.center-text {
+    text-align: center;
+}
+
+/* 3. Justify at least one paragraph */
+.justify-text {
+    text-align: justify;
+}
+
+/* 4. Style all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* 5. Heavy black border with yellow between border and image */
+img {
+    border: 10px solid black;   /* Heavy black border */
+    padding: 10px;              /* Yellow space between image and border */
+    background-color: yellow;   /* Yellow between border and image */
+}
+html {
+    background-image:url ("TheMain.webp");
+    background-repeat: repeat;
+}
