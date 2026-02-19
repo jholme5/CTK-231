@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url("a5bg.png");
+}
+
+
+#wrapper {
+    width: 95%;
+    margin: 20px auto;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+
+h1 {
+    font-weight: normal;
+    margin-top: 0;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    width: 150px;
+}
+
+nav a {
+    display: block;
+    background-color: #000099;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+nav a:hover {
+    background-color: #3366cc;
+    
+}
+
+
+h2 {
+    font-weight: bold;
+    border-bottom: 4px solid black;
+    padding-bottom: 5px;
+    font-family: Helvetica;
+}
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+
+
+main p {
+    text-align: justify;
+}
+
+
+main a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+main a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #000099;
+    border: 10px solid white;
+    padding: 20px;
+    margin: 20px;  
+    text-align: center;
+    font-family: Verdana;
+}
+
+footer p {
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin: 50;
+}
+
+
