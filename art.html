@@ -3,30 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Art Gallery</title>
+    <link rel="stylesheet" href="art.css">
 
     
-    <link rel="stylesheet" href="art.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
-   
-    <a href="portfolio.html" class="home-btn">🏠</a>
+    
+    <div class="top-nav">
+        <a href="portfolio.html" class="nav-icon">
+            <i class="fa-solid fa-house"></i>
+        </a>
 
-    <!-- Title -->
+        <a href="gamer.html" class="nav-icon">
+            <i class="fa-solid fa-gamepad"></i> 
+        </a>
+
+        <a href="aboutme.html" class="nav-icon">
+            <i class="fa-solid fa-user"></i>
+        </a>
+    </div>
+
+    
     <h1 class="title">THE ART GALLERY</h1>
 
-  
+    
     <div class="gallery">
 
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <a href="images/art1.jpg" data-fancybox="gallery">
+            <img src="images/art1.jpg">
+        </a>
 
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <a href="images/art2.jpg" data-fancybox="gallery">
+            <img src="images/art2.jpg">
+        </a>
+
+        <a href="images/art3.jpg" data-fancybox="gallery">
+            <img src="images/art3.jpg">
+        </a>
+
+        <a href="images/art4.jpg" data-fancybox="gallery">
+            <img src="images/art4.jpg">
+        </a>
+
+        <a href="images/art5.jpg" data-fancybox="gallery">
+            <img src="images/art5.jpg">
+        </a>
+
+        <a href="images/art6.jpg" data-fancybox="gallery">
+            <img src="images/art6.jpg">
+        </a>
 
     </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <script>
+        Fancybox.bind("[data-fancybox='gallery']", {});
+    </script>
 
 </body>
 </html>

@@ -4,44 +4,79 @@
     <meta charset="UTF-8">
     <title>Visuals Portfolio</title>
     <link rel="stylesheet" href="gamer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 </head>
 
 <body>
 
-    <!-- CONTAINER -->
+   
+<div class="top-nav">
+
+    <a href="portfolio.html" class="nav-icon">
+        <i class="fa-solid fa-house"></i>
+    </a>
+
+    <a href="art.html" class="nav-icon">
+        <i class="fa-solid fa-palette"></i>
+    </a>
+
+    <a href="about.html" class="nav-icon">
+        <i class="fa-solid fa-user"></i>
+    </a>
+
+</div>
+    
     <div class="container">
 
-        <!-- NAV -->
-        <header class="header">
-            <nav class="nav">
-                <div class="logo">VISIONS</div>
-                <ul class="menu">
-                   <a href="art.html" class="menu-btn">HOME</a>
-			<a href="art.html" class="menu-btn">ART</a>
-			<a href="about.html" class="menu-btn">About me</a>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- HERO -->
+        
         <section class="hero">
             <h1>VISUALS</h1>
         </section>
 
-        <!-- COLLECTION -->
+       
         <section class="collection">
             <h2>COLLECTION</h2>
 
             <div class="grid">
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+
+                <a href="images/game1.jpg" data-fancybox="gallery" data-caption="Parkour Game - Unity 3D">
+                    <img src="images/game1.jpg" class="card">
+                </a>
+
+                <a href="images/game2.jpg" data-fancybox="gallery" data-caption="2D Platformer">
+                    <img src="images/game2.jpg" class="card">
+                </a>
+
+                <a href="images/game3.jpg" data-fancybox="gallery" data-caption="Tag Game Concept">
+                    <img src="images/game3.jpg" class="card">
+                </a>
+
+                <a href="images/game4.jpg" data-fancybox="gallery" data-caption="UI Design">
+                    <img src="images/game4.jpg" class="card">
+                </a>
+
+                <a href="images/game5.jpg" data-fancybox="gallery" data-caption="Level Design">
+                    <img src="images/game5.jpg" class="card">
+                </a>
+
             </div>
         </section>
 
     </div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <script>
+        Fancybox.bind("[data-fancybox='gallery']", {
+            Thumbs: true,
+            Toolbar: true
+        });
+    </script>
 
 </body>
 </html>

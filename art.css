@@ -1,55 +1,69 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Background */
+/* PAGE BACKGROUND */
 body {
-    height: 100vh;
-    background: url("images/gallery.jpg") no-repeat center center/cover;
-    font-family: Arial, sans-serif;
-    position: relative;
+    margin: 0;
+    background: #dcdcdc;
+    font-family: sans-serif;
 }
 
-/* Title */
-.title {
-    text-align: center;
-    margin-top: 30px;
-    background: rgba(255,255,255,0.8);
-    display: inline-block;
-    padding: 15px 50px;
-    position: absolute;
+
+.top-nav {
+    position: fixed;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
+
+    width: 300px;
+    height: 60px;
+
+    background: #e6e6e6;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 100;
 }
 
-/* Home Button */
-.home-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    text-decoration: none;
-    font-size: 24px;
-    background: white;
-    padding: 10px;
-    border-radius: 50%;
+.nav-icon {
+    font-size: 28px;
+    color: black;
+    transition: 0.3s;
 }
 
-/* Gallery Layout */
+.nav-icon:hover {
+    color: purple;
+    transform: scale(1.2);
+}
+
+
+.title {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+
 .gallery {
-    width: 80%;
-    margin: 120px auto;
+    width: 1200px;
+    margin: 50px auto;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
 
-/* Boxes (your blurred areas in Figma) */
-.box {
-    height: 150px;
-    background: rgba(255,255,255,0.2);
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
     border: 2px solid black;
-    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+
+.gallery img:hover {
+    transform: scale(1.05);
 }

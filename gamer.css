@@ -62,8 +62,41 @@ body {
     gap: 20px;
 }
 
-/* CARDS */
+
 .card {
     height: 120px;
     background: #bfbfbf;
+}
+
+
+.top-nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 320px;
+    height: 60px;
+
+    background: #e6e6e6;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 100;
+}
+
+
+.nav-icon {
+    font-size: 28px;
+    color: black;
+    transition: 0.3s;
+}
+
+
+.nav-icon:hover {
+    color: #ff0000;
+    transform: scale(1.2);
 }
