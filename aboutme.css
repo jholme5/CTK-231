@@ -2,7 +2,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background: url("images/paint-bg.jpg") no-repeat center center/cover;
+    background-color: #f4f4f4;
     font-family: sans-serif;
 }
 
@@ -95,4 +95,27 @@ body {
 .nav-icon:hover {
     color: red;
     transform: scale(1.2);
+}
+.description-card {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    padding: 20px;
+
+    background: #e6e6e6;
+    border: 2px solid black;
+    text-align: left;
+}
+
+.description-card h2 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.description-card p {
+    margin: 6px 0;
+    color: #333;
 }

@@ -1,11 +1,11 @@
-
+/* BACKGROUND */
 body {
     margin: 0;
     background: linear-gradient(to bottom, #e6e6e6, #cfcfcf);
     font-family: sans-serif;
 }
 
-
+/* NAV BAR */
 .top-nav {
     position: fixed;
     top: 20px;
@@ -38,7 +38,7 @@ body {
     transform: scale(1.2);
 }
 
-
+/* TITLE */
 .title {
     text-align: center;
     margin-top: 120px;
@@ -46,7 +46,7 @@ body {
     letter-spacing: 3px;
 }
 
-
+/* GALLERY */
 .gallery {
     max-width: 1100px;
     margin: 50px auto;
@@ -58,14 +58,14 @@ body {
     padding: 0 20px;
 }
 
-
+/* CARD */
 .card {
     position: relative;
     overflow: hidden;
     border-radius: 12px;
 }
 
-
+/* IMAGE */
 .card img {
     width: 100%;
     height: 220px;
@@ -82,7 +82,7 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
-
+/* OVERLAY TEXT */
 .overlay {
     position: absolute;
     bottom: 0;
