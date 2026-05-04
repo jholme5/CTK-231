@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Art Gallery</title>
+
     <link rel="stylesheet" href="art.css">
 
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 </head>
 
 <body>
 
-    
+ 
     <div class="top-nav">
         <a href="portfolio.html" class="nav-icon">
             <i class="fa-solid fa-house"></i>
@@ -29,40 +33,39 @@
     
     <h1 class="title">THE ART GALLERY</h1>
 
-    
+   
     <div class="gallery">
 
-        <a href="images/art1.jpg" data-fancybox="gallery">
-            <img src="images/art1.jpg">
+        <a href="artgallery4.jpg" data-fancybox="gallery" class="card">
+            <img src="artgallery4.jpg" alt="Dirty Money Sketch">
+            <div class="overlay">Dirty Money</div>
         </a>
 
-        <a href="images/art2.jpg" data-fancybox="gallery">
-            <img src="images/art2.jpg">
+        <a href="artgallery3.jpg" data-fancybox="gallery" class="card">
+            <img src="artgallery3.jpg" alt="Fantasy Castle Landscape">
+            <div class="overlay">Castle Scene</div>
         </a>
 
-        <a href="images/art3.jpg" data-fancybox="gallery">
-            <img src="images/art3.jpg">
+        <a href="artgallery2.jpg" data-fancybox="gallery" class="card">
+            <img src="artgallery2.jpg" alt="Superhero Concept Art">
+            <div class="overlay">Superhero Concept</div>
         </a>
 
-        <a href="images/art4.jpg" data-fancybox="gallery">
-            <img src="images/art4.jpg">
-        </a>
-
-        <a href="images/art5.jpg" data-fancybox="gallery">
-            <img src="images/art5.jpg">
-        </a>
-
-        <a href="images/art6.jpg" data-fancybox="gallery">
-            <img src="images/art6.jpg">
+        <a href="artgallery1.jpg" data-fancybox="gallery" class="card">
+            <img src="artgallery1.jpg" alt="Punk Guitar Character">
+            <div class="overlay">Punk Guitar</div>
         </a>
 
     </div>
 
-    
+ 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <script>
-        Fancybox.bind("[data-fancybox='gallery']", {});
+        Fancybox.bind("[data-fancybox='gallery']", {
+            Thumbs: false,
+            Toolbar: true
+        });
     </script>
 
 </body>
